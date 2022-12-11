@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Favs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<!--xs sm md lg xl xxl-->
+
+<body>
+    <!--Nav-->
+    <div class="container shadow-lg" style="background: linear-gradient(#de9de0,white); ">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <!--NAv-->
+                <!--Testing inline styles... style="background: conic-gradient(from 40deg,#fed6ffc7,#de9de0,#8d5ddb9f,#517caf,rgb(240, 56, 56),#f45b69,orange,#bac51e, #0fe661);background-clip: text; -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent; ...END TEST-->
+                <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(#de9de0,white);">
+                    <!--top bg gradient-->
+                    <div class="container-fluid">
+                        <a class="navbar-brand w3-hover-grayscale" href="index.html"><i
+                                class="material-icons w3-spin w3-xxlarge " style="vertical-align: -30%; background: conic-gradient(from 40deg,#fed6ffc7,#de9de0,#8d5ddb9f,#517caf,rgb(240, 56, 56),#f45b69,orange,#bac51e, #0fe661);background-clip: text; -webkit-background-clip: text;
+                            -webkit-text-fill-color: transparent;">album</i> Home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        <i class="material-icons" style="vertical-align: -25%;">headphones</i> My
+                                        Music
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                    style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;Pop</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                    style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;Alt</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                    style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;R&B</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="#"><i class="material-icons"
+                                                    style="vertical-align: -25%;">playlist_play</i>Playlists</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="material-icons"
+                                            style="vertical-align: -25%;">repeat</i> All-Time Favs</a>
+                                    <!--<a class="nav-link active" aria-current="page" href="#">All-Time Favs</a>-->
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="accordian.html"><i class="material-icons"
+                                            style="vertical-align: -25%;">music_note</i>Page-Filler</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="material-icons"
+                                            style="vertical-align: -25%;">contact_page</i> Contact</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--CONTENT-->
+    <!-- EXAMPLE CONTAINER
+    <div class="container shadow-lg" style="background: linear-gradient(white,#de9de0);">
+        <div class="row">
+            <div class="col">
+                <h1>Here's Some of My Favorite Artists!</h1>
+            </div>
+        </div>
+    </div>
+    -->
+
+    <div class="container shadow-lg" style="background: white;">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h1>Here's Some of My Favorite Artists!</h1>
+            </div>
+            <div class="col-12 text-center">
+                <h6>(Heads Up!.. Clicking Links Will Open Youtube In A New tab!)</h6>
+            </div>
+        </div>
+
+    </div>
+    <!--CARDS-->
+    <div class="container shadow-lg" style="background: white;">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 g-3">
+            <!--Artists-->
+            <div class="col">
+                <div class="card border-danger mb-3 text-center">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <h5 class="card-title">Lake Street Dive</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Jazz, Pop music, Indie pop, Blue-eyed soul, Southern
+                            rock</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text">My first experience with LSD was a <a
+                                href="https://www.youtube.com/watch?v=6EPwRdVg5Ug" target="_blank">live cover of "I Want
+                                You Back" by The Jackson 5</a>. I was 15 years old at the time, which makes me think
+                            how insanely fast time flies by (I'm 26 now). ANYWAY, I was blown away! This was not really
+                            a style and genre I was oppossed to, but I had never gone out of my way to listen to any
+                            contemporary artists in this category. I'd watched that video so many times back then (and
+                            apparently so did a lot of other people!! lol, they were definitely not pulling those
+                            numbers back in the day). I was so happy to hear they were releasing a full album (Bad Self
+                            Portraits), I ended up preordering the vinyl. After all these years and albums it still has
+                            a special place in my heart. It taught me to be open to a greater variety of sounds and got
+                            me through plenty good and bad days. They're an extremely talented group (did I mention the
+                            lead vocalist sings like an angel???) that deserves nothing but absolute success.</p>
+                        <a href="https://www.youtube.com/watch?v=jerijB_8Dp8" target="_blank"
+                            class="btn btn-primary">Listen To "Better Than"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-secondary mb-3 text-center">
+                    <img src="Ology_by_Gallant.jpg" class="card-img-top" alt="Album Art: Gallant: Ology (2016)">
+                    <div class="card-body">
+                        <h5 class="card-title">Gallant</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Alternative R&B</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text">My personal favorite artist (top .05% listener on Spotify &#128064;)!
+                            Insane vocal range and a surprisingly diverse discography for mainly being an R&B singer.
+                            Ology [to me] is a once-in-a-lifetime album that I recommend most listen to at least once.
+                            Lyrical poetry that isn't pretentious + powerful vocals. The sound may not be for everyone,
+                            but that's okay because I enjoy it regardless :) I'll recommend a song off Neptune since
+                            that EP is a little less 'experimental'?? Not sure if that's the word I'm looking for...
+                            I've never taken music theory.
+                        </p>
+                        <a href="https://www.youtube.com/watch?v=RVHtjNzgaGs" target="_blank"
+                            class="btn btn-primary">Listen To "Julie"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-info mb-3 text-center">
+                    <img src="vulf-mfl.jpg" class="card-img-top" alt="Album Art: Vulfpeck: Mr. Finish Line (2017)">
+                    <div class="card-body">
+                        <h5 class="card-title">Vulfpeck</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Funk</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text">I remember having just flown in from school for Christmas back in 2014. I
+                            was scrolling on twitter, and a small creator I followed made a passing comment on how this
+                            band makes music that sounds like it belongs in 'Mario Kart'. I had to hear what he was
+                            talking about. While his claims didn't quite ring true, I ended up alling in love with this
+                            band one ep at a time. And only days later they released their first album, "The Thrill of
+                            The Arts". I have never stopped enjoying their music since the day I first played their
+                            songs. "Mr. Finish Line" has to be my favirite album from them. All vocalists get to shine
+                            and every track oozes passion. However, I have to recommend the OG, the song eveyone gets to
+                            vibe to no matter what their musical preferance is. TIMELESS!!!</p>
+                        <a href="https://www.youtube.com/watch?v=r4G0nbpLySI" target="_blank"
+                            class="btn btn-primary">Listen To "Wait for the Moment"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-warning mb-3 text-center">
+                    <img src="human_condition_art.png" class="card-img-top"
+                        alt="Album Art: Jon Bellion: The Human Condition (2020)">
+                    <div class="card-body">
+                        <h5 class="card-title">Jon Bellion</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Pop, Hip-Hop, Contemporary R&B, Indie Rock</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text">Kind of an outlier on this list. I was scrolling through twitter and saw a
+                            video of Jon at a pre-release fan meetup for his new album (The Human Condition). Pop music
+                            at the time really wasn't for me. He had already been wildy successful as a song writer for
+                            a lot of popular pop artists, but when it came to his original music he was relatively
+                            unknown outside of New York (bar harddcore fans). It took me a few listens to really get his
+                            angle. Fast forward and I've been to 2 concerts (it would have been 3 if i didn't mix up the
+                            date) and have enjoyed. I know he's been featured in a couple popular mainstream songs
+                            (Illenium's "Good Things Fall Apart" comes to mind), but I'm really just interested in his
+                            own personal discography. I can't say he's for everyone, but if you're a fan of pop there's
+                            a good chance you'll enjoy at least a couple of songs from his discography :)</p>
+                        <a href="https://youtu.be/pzy1ZeX8ZOY" target="_blank" class="btn btn-primary">Listen To "Blu
+                            (Acoustic)"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-success mb-3 text-center">
+                    <img src="dc-energy.jfif" class="card-img-top" alt="Album Art: Disclosure: Energy (2020)">
+                    <div class="card-body">
+                        <h5 class="card-title">Disclosure</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->House music, Electronic music, Deep house, UK garage
+                        </li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text"><!----></p>
+                        <a href="https://www.youtube.com/watch?v=c1zN-sEUc68" target="_blank"
+                            class="btn btn-primary">Listen To "Waterfall"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-dark mb-3 text-center">
+                    <img src="honne-nswy.jpg" class="card-img-top" alt="Album Art: Honne: No Song Without You (2020)">
+                    <div class="card-body">
+                        <h5 class="card-title">Honne</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Alternative/Indie, R&B/Soul, UK R&B</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text"><!----></p>
+                        <a href="https://www.youtube.com/watch?v=yN5au7O5uhI" target="_blank"
+                            class="btn btn-primary">Listen To "lines on our faces"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-primary mb-3 text-center">
+                    <img src="melodrama.webp" class="card-img-top" alt="Album Art: Lorde: Melodrama (2017)">
+                    <div class="card-body">
+                        <h5 class="card-title">Lorde</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE-->Pop, Indie/Alternative</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text"><!----></p>
+                        <a href="https://youtu.be/ZQkdwymDanE" target="_blank" class="btn btn-primary">Listen To "The
+                            Louvre"</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-danger mb-3 text-center">
+                    <img src="vincent.jpg" class="card-img-top" alt="Album Art: FKJ: Vincent (2022)">
+                    <div class="card-body">
+                        <h5 class="card-title">FKJ</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><!--GENRE--> Nu Jazz, Electronic, R&B, French House</li>
+                    </ul>
+                    <div class="card-body">
+                        <p class="card-text">Without realizing it I had consumed so much of this man's music in my late
+                            teen's up to now. Songs I could remember the melody of but not the name, or maybe a remix of
+                            a song from an artist I liked. Insanely talented and a unique sound like no other, I've
+                            really grown and had the pleasure to appreciate his art in the past couple of years. Time
+                            dissapears when i listen to his music, it's so comforting. I feel
+                            like I'd be doing a disservice to not include his live
+                            session of his EP "Ylang Ylang".</p>
+                        <a href="https://www.youtube.com/watch?v=pfU0QORkRpY" class="btn btn-primary">"Ylang Ylang EP
+                            (Live Session)"</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="container shadow-lg" style="background: linear-gradient(white,#de9de0);">
+        <div class="row">
+            <div class="col">
+                Footer
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
