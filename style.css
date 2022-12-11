@@ -1,0 +1,198 @@
+:root {
+    --main-radius: .6rem;
+    --grid-content-padding: .7rem;
+    --gradient-pink-orange: conic-gradient(pink, orange, pink);
+    --gradient-blue-green: conic-gradient(rgb(30, 146, 214), rgb(57, 221, 112), rgb(30, 146, 214));
+    --gradient-purple-cyan: conic-gradient(cyan, rgb(156, 78, 230), cyan);
+    --gradient-purple-orange: conic-gradient(purple, orange, purple);
+    --gradient-orange-purple: conic-gradient(orange, purple, orange);
+    --gradient-blurb: linear-gradient(rgba(77, 74, 74, 0.507), rgba(241, 137, 236, 0.678));
+    --main-background: linear-gradient(#0f0a0a, #7d7461, #f5efed, #0f0a0a);
+
+    /*dark*/
+    --smokey-black: #0f0a0a;
+    /*light*/
+    --isa: #f5efed;
+    /*greys*/
+    --roman-silver: #7d8491;
+    --shadow: #7d7461;
+    --sh-milk: #BEB9B0;
+    --sh-cream: #D8D5CF;
+    /*greens*/
+    --sham-green: #329f5b;
+    --sea-green: #0c8346;
+    /*blues*/
+    --green-blue: #2364aa;
+    --shadow-blue: #7392b7;
+    --carolina-blue: #3da5d9;
+    /*pinks/red*/
+    --china-pink: #e06c9f;
+    --fiery-rose: #f45b69;
+    --ua-red: #db2955;
+    /*gold/orange*/
+    --goldenrod: #d19c1d;
+    --bright-yc: #f9a620;
+    --carrot-orange: #f18f01;
+    /*purples*/
+    --amethyst: #9067c6;
+    --mb-purple: #8d86c9;
+    --royale-purple: #7343b1;
+    --p-maj: #9e7acd;
+    /*neutrals*/
+    --copper-rose: #a07178;
+    --oil-lav: #776274;
+}
+
+body {
+    height: 100vh !important;
+    background-color: var(--isa) !important;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='147' height='147' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(25)'%3E%3Crect width='100%25' height='100%25' fill='rgba(9, 0, 9,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L37 3h-34v34z' fill='rgba(178, 240, 228,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L3 37h34v-34z' fill='rgba(237, 184, 255,1)'/%3E%3Cpath d='M40 0v10h60v60L0 40L0 40h40v-40z' fill='rgba(178, 240, 228,1)'/%3E%3Cpath d='M0 40h-10v-60h60L40 0L40 0h-40v40z' fill='rgba(237, 184, 255,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+    /*
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='300' height='300' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(25)'%3E%3Crect width='100%25' height='100%25' fill='rgba(9, 0, 9,1)'/%3E%3Cpath d='M-10 30h60v3h-60zM-10-10h60v3h-60' fill='rgba(233, 216, 253,1)'/%3E%3Cpath d='M-10 10h60v3h-60zM-10-30h60v3h-60z' fill='rgba(225, 157, 183,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+    */
+}
+
+
+.row>* {
+    border: 1px dashed rgba(255, 0, 0, 0.432);
+}
+
+.container {
+    background-color: pink;
+}
+
+/*background-image: url("https://media.giphy.com/media/tHbrvPFQw7x3BFioxA/giphy-downsized-large.gif");*/
+.hero {
+    background-image: url("https://media.giphy.com/media/tHbrvPFQw7x3BFioxA/giphy-downsized-large.gif");
+    height: 150px;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: .6rem;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.hero::after {
+    box-shadow: inset 0 0 3rem #2f1331;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    border-radius: .6rem;
+    top: 0;
+    width: 100%;
+    background-color: rgba(252, 184, 248, 0.397);
+    z-index: 2;
+}
+
+.hero-text {
+    font-size: 2.1rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -4px 2px 0 rgba(0, 0, 0, 0.7);
+    z-index: 3;
+}
+.g-content{
+    background: var(--amethyst);
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    border-radius: var(--main-radius);
+    color: var(--isa);
+}
+#about1 {
+    background: var(--gradient-purple-orange);
+}
+
+/*MEDIA QUERIES FOR HERO*/
+/* xs */
+/* sm */
+/* lg */
+@media (min-width: 992px) {
+    .hero {
+        background-image: url("https://media.giphy.com/media/tHbrvPFQw7x3BFioxA/giphy-downsized-large.gif");
+        height: 300px;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: .6rem;
+        overflow: hidden;
+        z-index: 1;
+
+    }
+
+    .hero::after {
+        box-shadow: inset 0 0 3rem #2f1331;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        border-radius: .6rem;
+        top: 0;
+        width: 100%;
+        background-color: rgba(252, 184, 248, 0.397);
+        z-index: 2;
+    }
+
+    .hero-text {
+        font-size: 4rem;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: -4px 2px 0 rgba(0, 0, 0, 0.7);
+        z-index: 3;
+    }
+}
+
+@media (min-width: 1200px) {
+    .hero {
+        background-image: url("https://media.giphy.com/media/tHbrvPFQw7x3BFioxA/giphy-downsized-large.gif");
+        height: 400px;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: .6rem;
+        overflow: hidden;
+        z-index: 1;
+
+    }
+
+    .hero::after {
+        box-shadow: inset 0 0 3rem #2f1331;
+        content: '';
+        display: block;
+        height: 100%;
+        position: absolute;
+        border-radius: .6rem;
+        top: 0;
+        width: 100%;
+        background-color: rgba(252, 184, 248, 0.397);
+        z-index: 2;
+    }
+
+    .hero-text {
+        font-size: 4rem;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: -4px 2px 0 rgba(0, 0, 0, 0.7);
+        z-index: 3;
+    }
+}
