@@ -43,9 +43,14 @@
     --oil-lav: #776274;
 }
 
+html {
+    overflow-x: initial !important;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
+    top: 60px;
 }
 
 /* Track */
@@ -88,6 +93,13 @@ body {
     */
 }
 
+.my-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+
 /*  GRID LINES
 .row>* {
     border: 1px dashed rgba(255, 0, 0, 0.432);
@@ -95,7 +107,7 @@ body {
 */
 
 .container {
-    background-color: pink;
+    background-color: transparent;
 }
 
 /*background-image: url("https://media.giphy.com/media/tHbrvPFQw7x3BFioxA/giphy-downsized-large.gif");*/
@@ -111,6 +123,17 @@ body {
     overflow: hidden;
     z-index: 1;
 
+}
+.hero-text {
+    font-size: 2.1rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -4px 2px 0 rgba(0, 0, 0, 0.7);
+    z-index: 3;
 }
 
 .hero::after {
@@ -137,7 +160,10 @@ body {
     text-shadow: -4px 2px 0 rgba(0, 0, 0, 0.7);
     z-index: 3;
 }
-
+.thumbnail:hover {
+    background-color: pink;
+    opacity: 0.5;
+    }
 .g-content {
     background: var(--amethyst);
     margin-top: .5rem;

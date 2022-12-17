@@ -1,0 +1,77 @@
+<div class="row">
+            <div class="col-12 col-md-6">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>About this Site...</h1>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p>This site is a small portfolio of some of the music I've enjoyed over the
+                            years.
+                            <br>
+                            The amount of screenshots, notes, and saved playlists across my old and current devices is
+                            pretty ridiculous. Once in a while I'll really want to listen to a certain track, but I can
+                            hardly <a href="https://en.wikipedia.org/wiki/Gordon_music_learning_theory#Audiation"
+                                style="text-decoration: none;">audiate</a>
+                            it's structure or lyrics, let alone the title of the song.
+                            Recently I learned about the<a
+                                href="https://notes.nicolevanderhoeven.com/Personal+Knowledge+Management"
+                                style="text-decoration: none;"> Personal
+                                Knowledge Management</a> system. This small-scale 'second-brain' system is a great way
+                            to practice my code and keep track of my current favorites. Eventually I may expand upon it
+                            on a future personal project.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 gy-5">
+                <div class="row">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="..." class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Througout this site...</h5>
+                                    <p class="card-text">You may come across these cards. They're simply a way for me to
+                                        condense as much artists as i can into here. Maybe they don't quite fit a genre,
+                                        or perhaps they deserve an honorable mention for a couple of songs I like from
+                                        them. They work the same as the cards over on "All-Time Favs", and will redirect
+                                        you to an external link to listen to a song if you'd like.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1>Testing Again</h1>
+                    </div>
+                    <div class="col-12 text-center">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis diam libero. Quisque
+                            in pulvinar nisi. Aliquam erat volutpat. Praesent ac nisl dolor. In ante nisl, aliquet a
+                            metus eu, vulputate tristique metus. Nam malesuada, dui a rutrum ullamcorper, magna mi
+                            hendrerit ex, vel mollis metus est eu elit. Praesent consequat feugiat enim, quis porttitor
+                            metus accumsan vel. Donec sit amet ligula nec lacus gravida pretium. Integer vitae malesuada
+                            sapien. Mauris sed felis at mi tristique finibus. Donec fringilla felis mi, in mattis diam
+                            rutrum eget. Nam a tortor molestie, eleifend nunc viverra, ultricies risus. Nulla sit amet
+                            vulputate dolor. Vestibulum id imperdiet diam. Interdum et malesuada fames ac ante ipsum
+                            primis in faucibus. Suspendisse sodales magna magna, id efficitur neque consectetur id.
+                        </p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis diam libero. Quisque
+                            in pulvinar nisi. Aliquam erat volutpat. Praesent ac nisl dolor. In ante nisl, aliquet a
+                            metus eu, vulputate tristique metus. Nam malesuada, dui a rutrum ullamcorper, magna mi
+                            hendrerit ex, vel mollis metus est eu elit. Praesent consequat feugiat enim, quis porttitor
+                            metus accumsan vel. Donec sit amet ligula nec lacus gravida pretium. Integer vitae malesuada
+                            sapien. Mauris sed felis at mi tristique finibus. Donec fringilla felis mi, in mattis diam
+                            rutrum eget. Nam a tortor molestie, eleifend nunc viverra, ultricies risus. Nulla sit amet
+                            vulputate dolor. Vestibulum id imperdiet diam. Interdum et malesuada fames ac ante ipsum
+                            primis in faucibus. Suspendisse sodales magna magna, id efficitur neque consectetur id.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>

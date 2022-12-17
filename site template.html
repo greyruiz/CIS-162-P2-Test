@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AT Favs</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<!--xs sm md lg xl xxl-->
+
+<body>
+    <div class="container shadow-lg"
+        style="background: linear-gradient(180deg, rgba(222,157,224,1) 0%, white, white, rgba(255,255,255,1) 50%, white, white, white 10%, white, rgba(222,157,224,1) 100%);">
+
+        <!--Nav-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark shadow">
+            <div class="container bg-dark">
+                <a class="navbar-brand mb-0 h1 w3-hover-grayscale" href="index.html"><i
+                        class="material-icons w3-spin w3-xxlarge " style="vertical-align: -30%; background: conic-gradient(from 40deg,#212529c5,#5e5f86,#9d9ee0,#de9de0,rgb(240, 56, 56),#f45b69,orange,#bac51e, #0fe661);background-clip: text; -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;">album</i> Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="material-icons" style="vertical-align: -25%;">headphones</i> My
+                                Music
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="pop.html"><i class="material-icons"
+                                            style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;Pop</a>
+                                </li>
+                                <li><a class="dropdown-item disabled" href="#"><i class="material-icons"
+                                            style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;Alt</a>
+                                </li>
+                                <li><a class="dropdown-item" href="rnb.html"><i class="material-icons"
+                                            style="vertical-align: -25%;">play_circle</i>&nbsp;&nbsp;R&B</a>
+                                </li>
+                                <li><a class="dropdown-item disabled" href="#"><i class="material-icons"
+                                            style="vertical-align: -25%;">playlist_play</i>Playlists</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="card.html"><i class="material-icons"
+                                    style="vertical-align: -25%;">repeat</i>
+                                All-Time Favs</a>
+                            <!--<a class="nav-link active" aria-current="page" href="#">All-Time Favs</a>-->
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="accordian.html"><i class="material-icons"
+                                    style="vertical-align: -25%;">music_note</i>Under Construction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#"><i class="material-icons"
+                                    style="vertical-align: -25%;">contact_page</i> Contact</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Title-->
+        <div class="row">
+            <!--
+            <div class="col-12 text-center">
+                <h1>Here's Some of My Favorite Artists!</h1>
+            </div>
+            -->
+            <div class="col-12">
+                <div class="card bg-dark text-white">
+                    <img src="ot9-resize.jpg" class="rounded-bottom card-img" alt="..."
+                        style="filter: brightness(50%);">
+                    <div class="card-img-overlay">
+                        <div class="row">
+                            <div class="row justify-content-md-center">
+                                <div class="card border-light bg-transparent mb-3 text-center"
+                                    style="max-width: 30rem;">
+                                    <div class="card-header" style="font-size: 7rem;">Header</div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card bg-transparent text-white">
+                                    <h1 class="card-title text-center">Card title</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="card bg-transparent text-white">
+                                    <h1 class="card-title text-center">Card title</h1>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional content. This content is a little bit longer.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Spotify-->
+        <div class="col-12">
+            <div class="card rounded-bottom text-white bg-dark border-muted mb-3">
+                <div class="card-body">
+                    <div style="left: 0; width: 100%; height: 25rem; position: relative;"><iframe
+                            src="https://open.spotify.com/embed/playlist/5a2OuIJ1kEttA8X3PaewlI?utm_source=oembed"
+                            style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;"
+                            allowfullscreen
+                            allow="clipboard-write; encrypted-media; fullscreen; picture-in-picture;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Recs-->
+        <div class="row row-cols-3 row-cols-md-3  row-cols-lg-6 g-3" data-masonry='{"percentPosition": true }'
+            style="margin-top:-18px;">
+            <!--Cards Begin-->
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card bg-dark border-light mb-3 text-center text-white rounded">
+                    <img src="bsp-big.jfif" class="card-img-top"
+                        alt="Album Art: Lake Street Dive: Bad Self Portraits (2014)">
+                    <div class="card-body">
+                        <a href="#" target="_blank" class="btn btn-info text-white">Listen To "---"</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Content-->
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="card bg-dark text-white mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="butterflies.jfif" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div> <!--big boi background white/purple gradient div ends here-->
+    <footer class="bg-dark text-center text-md-start text-muted">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright: Gregory Ruiz
+            <a class="text-dark" href="https://mdbootstrap.com/"><!----></a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!--OLD
+    CONTENT
+     EXAMPLE CONTAINER
+    <div class="container shadow-lg" style="background: linear-gradient(white,#de9de0);">
+        <div class="row">
+            <div class="col">
+                <h1>Here's Some of My Favorite Artists!</h1>
+            </div>
+        </div>
+    </div>
+-->
+    <!--Script-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+
+</body>
+
+</html>
